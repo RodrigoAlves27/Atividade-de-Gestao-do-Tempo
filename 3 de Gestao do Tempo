@@ -1,0 +1,68 @@
+O que é um branch no Git?
+No Git, um branch é essencialmente um ponteiro móvel para um commit específico. Por padrão, ao iniciar um repositório, o Git cria um branch chamado master (ou main em algumas plataformas). Conforme você faz novos commits, esse ponteiro avança automaticamente para o commit mais recente. 
+Git
+
+Por que utilizar branches?
+Isolamento de mudanças: Branches permitem que você trabalhe em novas funcionalidades ou correções de bugs de forma isolada, sem interferir no código estável da linha principal.
+
+Facilidade de colaboração: Em equipes, diferentes desenvolvedores podem trabalhar simultaneamente em diferentes branches, facilitando a colaboração sem conflitos imediatos.
+
+Gerenciamento de versões: Branches auxiliam na organização do desenvolvimento, permitindo a manutenção de diferentes versões do software, como versões de produção, desenvolvimento e testes.
+
+Experimentação segura: Você pode criar branches para testar novas ideias ou abordagens sem o risco de comprometer o código principal.
+
+O Git torna a criação, fusão e exclusão de branches processos rápidos e eficientes, incentivando seu uso para um desenvolvimento mais organizado e seguro.
+
+
+Branches, ou ramificações, são um recurso fundamental no Git que permitem isolar o desenvolvimento de novas funcionalidades ou a correção de bugs sem afetar a linha principal de desenvolvimento,
+geralmente chamada de main ou master. Essa prática é essencial para manter a estabilidade do código principal enquanto se trabalha em melhorias ou ajustes.
+
+
+Cenário: Implementação de uma nova funcionalidade
+Imagine que sua equipe está trabalhando em um site de e-commerce que já está em produção. O cliente solicita a adição de um sistema de cupons de desconto.
+Para desenvolver essa funcionalidade sem afetar o código existente, você decide criar um novo branch chamado feature/cupom-desconto.
+Varonis
++1
+DIO
++1
+
+Passos:
+
+Criação do branch:
+Você cria um novo branch a partir da branch principal (main):
+
+bash
+Copiar
+Editar
+git checkout -b feature/cupom-desconto
+Desenvolvimento isolado:
+No branch feature/cupom-desconto, você implementa toda a lógica necessária para o sistema de cupons, incluindo:
+
+Criação de modelos de dados para os cupons.
+
+Interfaces de usuário para inserção e validação de cupons.
+
+Testes automatizados para garantir o funcionamento correto.
+
+Testes e validação:
+Após o desenvolvimento, você realiza testes locais e em ambientes de homologação para garantir que a nova funcionalidade funciona conforme o esperado.
+
+Integração com a branch principal:
+Após a validação, você integra as mudanças do branch feature/cupom-desconto de volta à branch main:
+
+bash
+Copiar
+Editar
+git checkout main
+git merge feature/cupom-desconto
+Deploy:
+Com as mudanças integradas à branch principal, você realiza o deploy da nova versão do site com a funcionalidade de cupons de desconto.
+
+Benefícios do uso de branches nesse cenário:
+
+Isolamento de mudanças: Permite desenvolver e testar a nova funcionalidade sem interferir no código em produção.
+
+Facilidade de colaboração: Outros membros da equipe podem continuar trabalhando em outras funcionalidades na branch main sem conflitos.
+
+Controle de versão: Facilita o rastreamento das mudanças específicas relacionadas à funcionalidade de cupons.
+
