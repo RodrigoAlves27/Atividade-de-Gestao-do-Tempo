@@ -1,0 +1,96 @@
+ Então, as mensagens claras e concisas são necessarias pois existe  pessoas que nao possuem o conhecimento e que estão ali para aprender o que esta sendo ensinado.
+E por que eles fazem alterações?
+Eles fazem alteraçoes pois algumas coisas(Codigos) podem sofrer alteraçoes, entao as informaçoes devem ser atualizadas.
+
+As mensagens de commit bem escritas facilitam a compreensao poir algumas pessoas nao possuem conhecimento nenhum e que estao ali para aprender.
+
+ feat(login): Adiciona autenticação via Google OAuth
+
+Implementa login com contas Google usando OAuth 2.0. Atualiza a biblioteca de autenticação para suportar esse novo método.
+Demorodavel
++1
+InfiniteJS
++1
+
+Justificativa: Utiliza o prefixo feat para indicar uma nova funcionalidade, especifica o escopo (login) e descreve claramente a mudança. Segue o padrão do Conventional Commits, facilitando a compreensão do histórico do projeto. 
+DIO
++5
+Padrões de Projetos DevOps
++5
+Dot Pegaso
++5
+
+2. fix: Corrige cálculo de frete para clientes internacionais
+Cursa
++10
+Demorodavel
++10
+InfiniteJS
++10
+
+O cálculo do frete internacional estava ignorando a conversão de moedas. Esta correção garante que os valores sejam convertidos corretamente.
+Demorodavel
+
+Justificativa: A mensagem é específica sobre o problema corrigido, utiliza o prefixo fix apropriado para correções de bugs e fornece contexto adicional no corpo da mensagem.
+
+3. docs: Atualiza README com instruções de configuração
+Medium
++8
+InfiniteJS
++8
+DIO
++8
+
+Adiciona detalhes sobre variáveis de ambiente necessárias para a configuração local do projeto.
+DEV Community
++9
+InfiniteJS
++9
+Medium
++9
+
+Justificativa: O prefixo docs indica claramente que se trata de uma alteração na documentação, e a descrição fornece informações úteis para outros desenvolvedores. 
+DIO
+
+
+
+📝 Boas Práticas para Mensagens de Commit
+Use o modo imperativo: Escreva como se estivesse dando uma ordem, por exemplo, "Adiciona funcionalidade X" em vez de "Adicionando funcionalidade X". 
+Demorodavel
+
+Seja conciso e específico: A primeira linha (assunto) deve resumir a mudança em até 50 caracteres.
+Gist
++4
+Padrões de Projetos DevOps
++4
+DIO
++4
+
+Separe o assunto do corpo: Utilize uma linha em branco entre o título e a descrição detalhada.
+Demorodavel
++2
+Padrões de Projetos DevOps
++2
+DIO
++2
+
+Forneça contexto no corpo da mensagem: Explique o "porquê" da mudança, não apenas o "o quê". 
+DEV Community
++2
+GitHub Wiki
++2
+Demorodavel
++2
+
+Referencie issues ou tickets: Inclua identificadores de issues relacionados, como Closes #123, para facilitar o rastreamento. 
+InfiniteJS
++2
+GitHub Wiki
++2
+Padrões de Projetos DevOps
++2
+
+Evite mensagens genéricas: Mensagens como "atualizações" ou "ajustes" não são informativas.
+
+
+
