@@ -13,7 +13,7 @@ Iniciar os exercícios práticos do curso de HTML e CSS. Criar uma base simples 
 Contribuição para o projeto:
 Esse commit marca o início da parte prática do projeto. Ele é importante porque estabelece um padrão de organização para os futuros exercícios, criando uma estrutura de pastas e arquivos.
 
-✅ Commit 2: "Desafio 06 completo"
+ Commit 2: "Desafio 06 completo"
 Mensagem do commit: “Desafio 06 completo”
 
 Arquivos modificados:
@@ -30,7 +30,7 @@ Finalizar um desafio proposto no curso, consolidando conceitos de posicionamento
 Contribuição para o projeto:
 Este commit demonstra a aplicação prática dos conceitos já estudados, além de apresentar um desafio resolvido que outros estudantes podem usar como referência. Ele contribui com material didático concreto e melhora a cobertura de exemplos no repositório.
 
-✅ Commit 3: "Melhorando responsividade do site"
+ Commit 3: "Melhorando responsividade do site"
 Mensagem do commit: “Melhorando responsividade do site”
 
 Arquivos modificados:
@@ -45,7 +45,7 @@ Adaptar o layout para diferentes tamanhos de tela usando media queries e boas pr
 Contribuição para o projeto:
 Mostra a evolução do conhecimento ao aplicar conceitos de responsividade, importante para desenvolvimento web moderno. Esse commit atualiza e melhora funcionalidades já implementadas, representando uma etapa de refinamento no projeto.
 
-📈 Conclusão sobre a sequência dos commits
+ Conclusão sobre a sequência dos commits
 A sequência desses commits reflete um processo de construção incremental e pedagógico do projeto:
 
 Commit 1 estabelece a base e estrutura do repositório.
